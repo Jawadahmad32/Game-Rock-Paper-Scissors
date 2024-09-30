@@ -1,40 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rock paper Scissors Game</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Rock paper Scissors</h1>
-    <div class="choices">
-      <div class="choice" id="rock">
-        <img src="images/rock.png.png" alt="" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facbook home page clone </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="nav-container">
+        <div class="facbook-logo"> 
+            <img src="imgs/fb-img.jpg.png" alt="" id="img">
+            <div class="facbook-serach">
+                <input type="text" placeholder="Serach Facbook" id="input">
+             </div>          
+        </div>
+        <div class="facbook-itembox">
+          <div class="box box1">
+            <i class="fa-solid fa-house"></i>
+          </div>
+          <div class="box box2">
+            <i class="fa-solid fa-film"></i>
+          </div>
+          <div class="box box3">
+            <i class="fa-solid fa-shop"></i>
+          </div>
+          <div class="box box4">
+            <i class="fa-solid fa-people-group"></i>
+          </div>
+          <div class="box box5">
+            <i class="fa-solid fa-gamepad"></i>
+          </div>
+        </div>
+        <div class="facbook-menu">
+            <div class="Mbox box6">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="Mbox box7"><i class="fa-brands fa-facebook-messenger"></i></div>
+            <div class="Mbox box8">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <div class="Mbox box9">
+                <img src="imgs/jdfb-img.jpg.png"  alt="" style="height: 30px; width: 30px;">
+            </div>
+          </div>
+        </div>
+    </div>
       </div>
-      <div class="choice" id="paper">
-        <img src="images/paper.png.png" alt="" />
-      </div>
-      <div class="choice" id="scissors">
-        <img src="images/scissors.png.png" alt="" />
-      </div>
+
+      <!-- side Section -->
+   <div class="Side-Section">
+  <div class="sidesection-container">
+        <div class="user-id">
+            <img src="imgs/jdfb-img.jpg.png" alt="">
+            <p>Jawad Ahmad</p>
+        </div>
+        <div class="friends-icon">
+            <i class="fa-solid fa-user-group"></i>
+            <p>Friends</p>
+        </div>
+        <div class="professional-dashborad">
+            <i class="fa-solid fa-square-poll-vertical"></i>
+            <p>Profiesional dashborad</p>
+        </div>
+        <div class="feeds">
+            <i class="fa-solid fa-newspaper"></i>
+            <p>Feeds</p>
+        </div>
+        <div class="marketplace">
+            <i class="fa-solid fa-shop"></i>
+            <p>MarketPlace</p>
+        </div>
+        <div class="video">
+            <i class="fa-solid fa-film"></i>
+            <p>Video</p>
+        </div>
+        <div class="memories">
+            <i class="fa-solid fa-memory"></i>
+            <p>Memorys</p>
+        </div>
+        <div class="seemore">
+            <i class="fa-solid fa-circle-chevron-down"></i>
+            <p>SeeMore</p>
+        </div>
     </div>
 
-    <div class="score_borad">
-      <div class="score">
-        <p id="user-score">0</p>
-        <p>You</p>
+
+</body>  <!-- Hero Section -->
+
+<div class="hero-Section">
+  <div class="userinterface">
+      <div class="jdid">
+          <img src="imgs/jdfb-img.jpg.png" alt="">    
       </div>
-      <div class="score">
-        <p id="comp-score">0</p>
-        <p>Comp</p>
+      <div class="sharethink">
+          <input type="text" placeholder="What's on you'r mind Jawad?">
       </div>
+  </div>
+  <hr>
+  <div class="USER-item">
+  <div class="live-video">
+      <i class="fa-solid fa-video"></i>
+      <p>Live Video</p>
+  </div>
+  <div class="photovideos">
+      <i class="fa-solid fa-photo-film"></i>
+      <P>Photo/video</P>
+  </div>
+  <div class="reel">
+      <i class="fa-solid fa-dumpster-fire"></i>
+      <p>Reel</p>
+  </div>
+</div>
+
+<div class="all-story">
+    <div class="storys">
+    <div class="user-ID boxx">
+        <div class="user-story">
+            
+        </div>
+        <div class="plus-icon">
+            <div class="story-icon">
+        <i class="fa-solid fa-plus"></i>
+    </div>
+        <div class="story-para1">
+        <span>Creat Story</span>
+    </div>
+</div>
+    </div>
+    <div class="umar-story boxx story-hover">
+        <div class="umar-id">
+     
+        </div>
+    </div>
+    <div class="aizaz-story boxx story-hover">
+        <div class="aizaz-id">
+            
+        </div>
+    </div>
+    <div class="aliM-story boxx story-hover">
+        <div class="aliM-id">    
+        </div>
     </div>
 
-    <div class="msg-container">
-      <p id="msg">Play your Move</p>
     </div>
+</div>
 
-    <script src="script.js"></script>
-  </body>
+<div class="user-post">
+    <div class="user-info">
+      <div class="user-pic">
+        <img src="imgs/sajidfb-story-img.jpg.png" alt="User Image">
+      </div>
+      <div class="user-name">Sajid khan</div>
+      <div class="post-time">2 hours ago</div>
+      <div class="location">
+        <i class="fa-solid fa-globe"></i>
+        , UAE
+      </div>
+    </div>
+    <div class="post-content">
+      <img src="bk-img/alimbk-img.jpg.png" alt="">
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
 </html>
